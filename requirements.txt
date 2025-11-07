@@ -1,0 +1,12 @@
+| #  | Text Segment                                                                       | Expected Output                                   |
+| -- | ---------------------------------------------------------------------------------- | ------------------------------------------------- |
+| 1  | “We share your data with third-party advertisers and analytics partners.”          | ⚠️ Detected: **Third Party Sharing / Collection** |
+| 2  | “We do not sell or share any personal information without your consent.”           | ✅ No specific privacy risks detected.             |
+| 3  | “Your personal data may be used to improve our services and develop new features.” | ⚠️ Detected: **Data Retention / Usage**           |
+| 4  | “We retain your data for as long as necessary to comply with legal obligations.”   | ⚠️ Detected: **Data Retention**                   |
+| 5  | “Users can delete their account permanently through settings.”                     | ⚠️ Detected: **User Choice / Control**            |
+| 6  | “Your device location is collected to provide location-based recommendations.”     | ⚠️ Detected: **Location Data**                    |
+| 7  | “We use cookies to personalize content and track user behavior.”                   | ⚠️ Detected: **Tracking Technologies / Cookies**  |
+| 8  | “Children under 13 should not use our service.”                                    | ⚠️ Detected: **Children’s Privacy**               |
+| 9  | “We may transfer your data internationally, including outside your home country.”  | ⚠️ Detected: **International Data Transfer**      |
+| 10 | “Your information is encrypted and stored securely.”                               | ⚠️ Detected: **Security Practices**               |
