@@ -164,6 +164,7 @@ Potential extensions include:
 *2. Shrutee Salpe* Project Lead - 2
 
 *3. Parth Gupta* Research Contributor
+
 ---
 
 ## License
